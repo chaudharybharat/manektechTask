@@ -67,6 +67,9 @@ class _ProductListScreenState extends State<ProductListScreen> {
                             width: double.infinity,
                             height: double.infinity,
                             decoration: BoxDecoration(
+                                borderRadius: const BorderRadius.only(
+                                    topRight: Radius.circular(10),
+                                    topLeft: Radius.circular(10)),
                                 color: Colors.black,
                                 shape: BoxShape.rectangle,
                                 image: DecorationImage(
