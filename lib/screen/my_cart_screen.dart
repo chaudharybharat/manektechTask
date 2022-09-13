@@ -225,7 +225,7 @@ class _MyCartScreenState extends State<MyCartScreen> {
                                 height: 10,
                               ),
                               _labelValueWidget(
-                                  "Price", _productCartList[index].price),
+                                  "Price","\$"+ _productCartList[index].price),
                               const SizedBox(
                                 height: 10,
                               ),
